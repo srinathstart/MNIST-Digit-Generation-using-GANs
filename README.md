@@ -29,11 +29,20 @@ We use the **MNIST dataset**, which contains **60,000 training images** and **10
 
 Ensure you have the following dependencies installed:
 
-```bash
 pip install tensorflow imageio matplotlib numpy
 
+
 ## Project Structure
+
 │── main.py                    # Main script to train and test the GAN
 │── README.md                   # Project documentation
 │── training_checkpoints/       # Saved model checkpoints
 │── generated_images/           # Images generated during training
+
+## Expected Results
+
+* Initially, the generated images look like random noise.
+
+* As training progresses (after about 50 epochs), the images start resembling handwritten digits.
+
+* The final results should look like realistic MNIST-style digits.
