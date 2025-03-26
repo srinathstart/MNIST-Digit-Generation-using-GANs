@@ -35,8 +35,11 @@ pip install tensorflow imageio matplotlib numpy
 ## Project Structure
 
 │── main.py                    # Main script to train and test the GAN
+
 │── README.md                   # Project documentation
+
 │── training_checkpoints/       # Saved model checkpoints
+
 │── generated_images/           # Images generated during training
 
 ## Expected Results
